@@ -1,34 +1,49 @@
-# Prerequisites
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+## Local History for Visual Studio Code
+.history/
+
+## Built Visual Studio Code Extensions
+*.vsix
+
+# C/C++
+## Prerequisites
 *.d
 
-# Object files
+## Object files
 *.o
 *.ko
 *.obj
 *.elf
 
-# Linker output
+## Linker output
 *.ilk
 *.map
 *.exp
 
-# Precompiled Headers
+## Precompiled Headers
 *.gch
 *.pch
 
-# Libraries
+## Libraries
 *.lib
 *.a
 *.la
 *.lo
 
-# Shared objects (inc. Windows DLLs)
+## Shared objects (inc. Windows DLLs)
 *.dll
 *.so
 *.so.*
 *.dylib
 
-# Executables
+## Executables
 *.exe
 *.out
 *.app
@@ -36,13 +51,13 @@
 *.x86_64
 *.hex
 
-# Debug files
+## Debug files
 *.dSYM/
 *.su
 *.idb
 *.pdb
 
-# Kernel Module Compile Results
+## Kernel Module Compile Results
 *.mod*
 *.cmd
 .tmp_versions/
